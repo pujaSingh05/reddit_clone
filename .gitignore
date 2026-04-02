@@ -14,11 +14,16 @@
 .swiftpm/
 migrate_working_dir/
 
+# Lock files
+pubspec.lock
+pubspec.yaml
+
 # Confidential config files
 **/GoogleService-Info.plist
 **/google-services.json
 local.properties
 firebase.json
+
 lib/firebase_options.dart
 **/key.properties
 **/*.keystore
